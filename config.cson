@@ -1,0 +1,41 @@
+"*":
+  editor:
+    showIndentGuide: true
+    invisibles: {}
+    softWrap: true
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-_"
+  core:
+    disabledPackages: [
+      "atom-ctags"
+    ]
+    audioBeep: false
+    destroyEmptyPanes: false
+    themes: [
+      "quantum-ui"
+      "one-dark-syntax"
+    ]
+  welcome:
+    showOnStartup: false
+  "git-diff":
+    showIconsInEditorGutter: true
+  "highlight-column":
+    opacity: 0.1
+    enableHighlight: true
+  semanticolor:
+    colorDiversity: 10
+  "exception-reporting":
+    userId: "27ca8dfc-f53a-61fb-ff51-f5c2eb99555a"
+  "linter-eslint": {}
+  jshint:
+    supportLintingJsx: true
+  linter: {}
+  "save-session":
+    disableNewFileOnOpen: false
+    extraDelay: 250
+    project: "/Users/jeffsandberg/.atom"
+    windowX: 0
+    windowY: 23
+    windowWidth: 1440
+    windowHeight: 873
+    treeSize: 314
+    dataSaveFolder: "~/.atom/packages/save-session/projects"
