@@ -8,11 +8,16 @@ A collection of my Atom dotfiles. I recommend placing this .atom directory in yo
 # add this repo to your existing `.atom` directory
 cd  ~/.atom
 git init
-git remote add origin git@github.com:Lordnibbler/atom.git
+git remote add origin git@github.com:Lordnibbler/.atom.git
 
-# bring yourself up to date, and reset to master (blowing away your config!)
+# bring yourself up to date
 git fetch
+
+# blow away your config
 git reset origin/master --hard
+
+# OR pull in my config and resolve conflicts
+git pull origin/master
 ```
 
 ### Updating
