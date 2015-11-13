@@ -7,6 +7,7 @@ A collection of my Atom dotfiles. I recommend placing this .atom directory in yo
 ```sh
 # add this repo to your existing `.atom` directory
 cd  ~/.atom
+git init
 git remote add origin git@github.com:Lordnibbler/atom.git
 
 # bring yourself up to date, and reset to master (blowing away your config!)
